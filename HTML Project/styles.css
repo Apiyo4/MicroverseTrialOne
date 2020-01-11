@@ -34,3 +34,15 @@ textarea{
     width: 60%;
     height: 100px;
 }
+@media (max-width: 650px){ 
+    body{
+        background-color: white;
+    }
+    #main{
+       width:100%;
+    }
+    input, select, textarea, input[type='checkbox'], input[type='radio']{
+        background-color: white;
+    }
+
+ }
