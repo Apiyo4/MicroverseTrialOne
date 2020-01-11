@@ -18,3 +18,15 @@ label{
 #submit{
     clear: both;
 }
+input{
+    padding: 3px;
+    border-radius: 4px;
+    background-color: #e2dfd6;
+}
+select, textarea{
+    background-color: #e2dfd6; 
+}
+textarea{
+    width: 60%;
+    height: 100px;
+}
