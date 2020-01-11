@@ -11,6 +11,10 @@ body{
     line-height: 2em;
 }
 
+form{
+    margin-top: 50px;
+}
+
 label{
     display: block;
 }
