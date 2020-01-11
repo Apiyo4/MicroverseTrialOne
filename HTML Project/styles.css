@@ -3,12 +3,17 @@ body{
     background-color: #e2dfd6;
 }
 
+h1{
+    text-transform: uppercase;
+}
+
 #main{
     display: block;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    text-align: center;
-    line-height: 2em;
+    text-align: left;
+    line-height: 2.5em;
+    padding-bottom: 30px;
 }
 
 form{
@@ -27,8 +32,26 @@ input{
     border-radius: 4px;
     background-color: #e2dfd6;
 }
+input:focus{
+    outline: none;
+}
+input[type='button']{
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+input[type='button']:hover{
+    background-color: darkslateblue;
+    color: white;
+    cursor: pointer;
+}
 select, textarea{
     background-color: #e2dfd6; 
+}
+select:hover{
+    cursor: pointer;
 }
 textarea{
     width: 60%;
