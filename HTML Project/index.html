@@ -12,12 +12,25 @@
            </label>
             <br/>
             <label id='email-label'>Enter your email:
-            <input type="email" id="email">
+            <input type="email" id="email" placeholder="Enter your email">
             </label>
             <br/>
-            <label id='nmber-label'>Enter a number:
-            <input type="number" id="number" max= '10' min= '3' >
+            <label id='number-label'>Enter a phone number:
+            <input type="number" id="number" max= '10' min= '3' placeholder="Enter your phone number">
             </label>
+            <br>
+            <label id="select"> Select what best describes you:</label>
+            <select name="dropdown" id="dropdown">
+                <option value="Opt 1" selected="selected">Select an option</option>
+                <option value="Opt 2">Student</option>
+                <option value="Opt 2">Full time job</option>
+                <option value="Opt 2">Full time learner</option>
+                <option value="Opt 2">Prefer not to say</option>
+            </select>
+            <label>Select age range</label>
+            <input type="radio" name="age" value="Less than 18">
+            <input type="radio" name="age" value="Less than 40">
+            <input type="radio" name="age" value="Too old">
         </form>
     </body>
 </html>
